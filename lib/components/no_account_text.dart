@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chefmaster_app/screens/sign_up/sign_up_screen.dart';
+import 'package:chefmaster_app/mvvm/views/sign_up/sign_up_screen.dart';
 
 import '../utils/constants.dart';
 import '../utils/size_config.dart';

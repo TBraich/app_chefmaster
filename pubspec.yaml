@@ -38,15 +38,17 @@ dependencies:
   image_cropper: ^1.4.0
   flutter_dialogs: ^1.1.0
   sn_progress_dialog: ^1.0.2
-  #  amazon_s3_cognito: ^0.6.0
   webview_flutter: ^2.0.12
   fluttertoast: ^8.0.8
+  scoped_model: ^1.1.0
   uuid: 3.0.4
+#  firebase_messaging: ^5.1.4
 #  flutter_facebook_auth: ^3.3.3-no-nullsafety
 
 #  firebase_analytics: any
-#  firebase_messaging: ^10.0.2
-#  firebase_core: ^1.3.0
+  firebase_core: ^1.2.1
+  flutter_local_notifications: ^6.0.0
+  firebase_messaging: ^10.0.1
 
 dev_dependencies:
   flutter_test:

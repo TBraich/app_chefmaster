@@ -3,10 +3,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-import 'package:chefmaster_app/models/Category.dart';
-import 'package:chefmaster_app/models/RecipeDetail.dart';
-import 'package:chefmaster_app/models/UploadImage.dart';
-import 'package:chefmaster_app/models/User.dart';
+import 'package:chefmaster_app/mvvm/models/category.dart';
+import 'package:chefmaster_app/mvvm/models/recipe_detail.dart';
+import 'package:chefmaster_app/mvvm/models/upload_image.dart';
+import 'package:chefmaster_app/mvvm/models/user.dart';
 import 'package:chefmaster_app/utils/app_url.dart';
 import 'package:chefmaster_app/utils/constants.dart';
 import 'package:chefmaster_app/utils/enums.dart';

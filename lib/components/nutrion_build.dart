@@ -27,7 +27,6 @@ class NutritionBuild extends StatelessWidget {
       ),
       child: Row(
         children: [
-
           Flexible(child: Container(
             height: getProportionateScreenHeight(44),
             width: getProportionateScreenWidth(44),
@@ -41,7 +40,7 @@ class NutritionBuild extends StatelessWidget {
                 value.toString(),
                 style: TextStyle(
                   color: Color(color),
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),
               ),

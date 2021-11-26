@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872301812676",
+    "project_id": "chefbook-1dac4",
+    "storage_bucket": "chefbook-1dac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872301812676:android:72c96bdf97d3165e68e291",
+        "android_client_info": {
+          "package_name": "edu.humg.chefmaster_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872301812676-6qeljvha88di187c51k8j1op3jedfnkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG_9SqRd7H354ugWgKyGN9SnEj-YHHMic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872301812676-6qeljvha88di187c51k8j1op3jedfnkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
