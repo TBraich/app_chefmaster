@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:chefmaster_app/screens/add_recipe/add_recipe_screen.dart';
-import 'package:chefmaster_app/screens/app_setting/setting_screen.dart';
-import 'package:chefmaster_app/screens/fail_screen/faile_404_screen.dart';
-import 'package:chefmaster_app/screens/home/home_screen.dart';
-import 'package:chefmaster_app/screens/list_favorite_items/list_favorite_screen.dart';
-import 'package:chefmaster_app/screens/profile_detail/ProfilePage.dart';
+import 'package:chefmaster_app/mvvm/views/add_recipe/add_recipe_screen.dart';
+import 'package:chefmaster_app/mvvm/views/app_setting/setting_screen.dart';
+import 'package:chefmaster_app/mvvm/views/fail_screen/faile_404_screen.dart';
+import 'package:chefmaster_app/mvvm/views/home/home_screen.dart';
+import 'package:chefmaster_app/mvvm/views/list_favorite_items/list_favorite_screen.dart';
+import 'package:chefmaster_app/mvvm/views/profile_detail/ProfilePage.dart';
 import 'package:chefmaster_app/utils/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

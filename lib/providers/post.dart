@@ -26,8 +26,6 @@ class PostProvider with ChangeNotifier {
       headers: {'Content-Type': 'application/json'},
     );
 
-    print('response: ${json.decode(utf8convert(response.body))}');
-
     if (response.statusCode != 200) {
       Fluttertoast.showToast(
           msg: "Comment failed: " +

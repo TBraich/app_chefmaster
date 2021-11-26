@@ -1,4 +1,4 @@
-import 'package:chefmaster_app/screens/splash/splash_screen.dart';
+import 'package:chefmaster_app/mvvm/views/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:chefmaster_app/routes.dart';
 import 'package:chefmaster_app/theme.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chefmaster_app/models/Category.dart';
-import 'package:chefmaster_app/screens/list_items/list_items_screen.dart';
+import 'package:chefmaster_app/mvvm/models/category.dart';
+import 'package:chefmaster_app/mvvm/views/list_items/list_items_screen.dart';
 import 'package:chefmaster_app/utils/enums.dart';
 
 import '../utils/constants.dart';

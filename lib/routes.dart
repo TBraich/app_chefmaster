@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:chefmaster_app/screens/add_recipe/add_recipe_screen.dart';
-import 'package:chefmaster_app/screens/app_setting/setting_screen.dart';
-import 'package:chefmaster_app/screens/complete_profile/complete_profile_screen.dart';
-import 'package:chefmaster_app/screens/fail_screen/faile_404_screen.dart';
-import 'package:chefmaster_app/screens/forgot_password/forgot_password_screen.dart';
-import 'package:chefmaster_app/screens/home/home_screen.dart';
-import 'package:chefmaster_app/screens/list_items/list_items_screen.dart';
-import 'package:chefmaster_app/screens/login_success/login_success_screen.dart';
-import 'package:chefmaster_app/screens/otp/otp_screen.dart';
-import 'package:chefmaster_app/screens/profile_detail/ProfilePage.dart';
-import 'package:chefmaster_app/screens/recipe_details/details_screen.dart';
-import 'package:chefmaster_app/screens/sign_in/sign_in_screen.dart';
-import 'package:chefmaster_app/screens/splash/splash_screen.dart';
-import 'package:chefmaster_app/screens/webview/webview_screen.dart';
+import 'package:chefmaster_app/mvvm/views/add_recipe/add_recipe_screen.dart';
+import 'package:chefmaster_app/mvvm/views/app_setting/setting_screen.dart';
+import 'package:chefmaster_app/mvvm/views/complete_profile/complete_profile_screen.dart';
+import 'package:chefmaster_app/mvvm/views/fail_screen/faile_404_screen.dart';
+import 'package:chefmaster_app/mvvm/views/forgot_password/forgot_password_screen.dart';
+import 'package:chefmaster_app/mvvm/views/home/home_screen.dart';
+import 'package:chefmaster_app/mvvm/views/list_items/list_items_screen.dart';
+import 'package:chefmaster_app/mvvm/views/login_success/login_success_screen.dart';
+import 'package:chefmaster_app/mvvm/views/otp/otp_screen.dart';
+import 'package:chefmaster_app/mvvm/views/profile_detail/ProfilePage.dart';
+import 'package:chefmaster_app/mvvm/views/recipe_details/details_screen.dart';
+import 'package:chefmaster_app/mvvm/views/sign_in/sign_in_screen.dart';
+import 'package:chefmaster_app/mvvm/views/splash/splash_screen.dart';
+import 'package:chefmaster_app/mvvm/views/webview/webview_screen.dart';
 
 import 'components/bottom_navigator_bar.dart';
-import 'screens/sign_up/sign_up_screen.dart';
+import 'mvvm/views/sign_up/sign_up_screen.dart';
 
 class CustomRoute<T> extends MaterialPageRoute<T> {
   CustomRoute({WidgetBuilder builder, RouteSettings settings})

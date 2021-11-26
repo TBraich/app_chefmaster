@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_dialogs/flutter_dialogs.dart';
 import 'package:chefmaster_app/components/loading_indicator.dart';
-import 'package:chefmaster_app/models/User.dart';
-import 'package:chefmaster_app/screens/sign_in/sign_in_screen.dart';
+import 'package:chefmaster_app/mvvm/models/user.dart';
+import 'package:chefmaster_app/mvvm/views/sign_in/sign_in_screen.dart';
 import 'package:chefmaster_app/utils/size_config.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chefmaster_app/models/RecipeDetail.dart';
-import 'package:chefmaster_app/screens/recipe_details/details_screen.dart';
+import 'package:chefmaster_app/mvvm/models/recipe_detail.dart';
+import 'package:chefmaster_app/mvvm/views/recipe_details/details_screen.dart';
 
 import '../utils/constants.dart';
 import '../utils/size_config.dart';
